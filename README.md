@@ -109,10 +109,3 @@ The analysis focuses on emergency department measures. The script prioritizes me
 Hospital size is taken from an explicit bed-count column when available. If the general information file does not include beds, the script uses the CMS wait time sample count as a volume-based proxy and labels hospitals as small, medium, or large.
 
 Urban/rural status is taken from an explicit urban/rural column when available. If unavailable, the script uses a conservative proxy: Critical Access Hospitals are classified as rural, and other hospitals are classified as urban/other. Label this limitation clearly if you use the urban/rural chart in a slide.
-
-## Interview Talking Points
-
-- The analysis turns raw CMS hospital data into an operations-focused view of ER throughput.
-- The strongest state-level findings show where patient flow problems may be most visible.
-- Ownership, hospital type, and size comparisons help identify whether delays are concentrated in certain operating models.
-- A next step would be to add staffing, bed occupancy, local demand, ambulance diversion, and county-level urban/rural classifications.
